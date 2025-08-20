@@ -128,10 +128,10 @@ def process_folders(original_folder, network1_folder, network2_folder, output_fo
 
 
 # 输入文件夹路径
-original_folder = r"E:\python_project\datasets\FullIJCNN2013_yolo\images\test"
-network1_folder = "GTSDB_compare_MDDF"
-network2_folder = "GTSDB_compare_yolo"
-output_folder = "compare_images/GTSDB"
+original_folder = r"E:\python_project\yolo_change\ultralytics\voc\images\voc_test"
+network1_folder = "VOC_compare_MDDF"
+network2_folder = "VOC_compare_yolo"
+output_folder = "compare_images/VOC"
 
 # 运行处理函数
-process_folders(original_folder, network1_folder, network2_folder, output_folder, 0.01)
+process_folders(original_folder, network1_folder, network2_folder, output_folder, 0.5)

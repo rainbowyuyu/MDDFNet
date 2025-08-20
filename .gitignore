@@ -10,7 +10,12 @@ result/TT100K_compare_MDDF
 result/TT100K_compare_yolo
 result/GTSDB_compare_MDDF
 result/GTSDB_compare_yolo
+result/VOC_compare_MDDF
+result/VOC_compare_yolo
 
 *.pyc
 assets/compare.ai
 assets/compare.pdf
+assets/compare_TT100K.pdf
+assets/compare_GTSDB.pdf
+assets/compare_VOC.pdf
