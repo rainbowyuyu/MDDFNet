@@ -1,16 +1,31 @@
-result/MDDF_GTSDB
-result/MDDF_tt100k
-result/MDDF_coco128
+result/SMDDF_GTSDB
+result/SMDDF_tt100k
+result/SMDDF_coco128
 result/yolo_tt100k
 result/yolo_GTSDB
+result/yolo_vehicle
 result/compare_images
-result/MDDF_VOC
+result/SMDDF_VOC
+result/SMDDF_ai-tod
+result/SMDDF_football
+result/SMDDF_license
+result/SMDDF_vehicle
 
-result/TT100K_compare_MDDF
+result/TT100K_compare_SMDDF
 result/TT100K_compare_yolo
-result/GTSDB_compare_MDDF
+result/GTSDB_compare_SMDDF
 result/GTSDB_compare_yolo
+result/VOC_compare_SMDDF
+result/VOC_compare_yolo
+result/vehicle_compare_SMDDF
+result/vehicle_compare_yolo
+
+result/SMDDFNet_dataset_metrics_comparison.md
 
 *.pyc
 assets/compare.ai
 assets/compare.pdf
+assets/compare_TT100K.pdf
+assets/compare_GTSDB.pdf
+assets/compare_VOC.pdf
+assets/compare_vehicle.pdf
